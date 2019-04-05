@@ -67,32 +67,11 @@
       <constraint>
         <height>-1</height>
         <width>-1</width>
-        <x>146</x>
-        <y>246</y>
+        <x>458</x>
+        <y>297</y>
       </constraint>
-      <sourceConnections>
-        <net.java.amateras.uml.classdiagram.model.AggregationModel>
-          <showIcon>true</showIcon>
-          <listeners serialization="custom">
-            <java.beans.PropertyChangeSupport>
-              <default>
-                <source class="net.java.amateras.uml.classdiagram.model.AggregationModel" reference="../../../.."/>
-                <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
-              </default>
-              <null/>
-            </java.beans.PropertyChangeSupport>
-          </listeners>
-          <source class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
-          <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
-          <bendpoints/>
-          <stereoType></stereoType>
-          <fromMultiplicity></fromMultiplicity>
-          <toMultiplicity></toMultiplicity>
-        </net.java.amateras.uml.classdiagram.model.AggregationModel>
-      </sourceConnections>
-      <targetConnections>
-        <net.java.amateras.uml.classdiagram.model.AggregationModel reference="../../sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel"/>
-      </targetConnections>
+      <sourceConnections/>
+      <targetConnections/>
       <children>
         <net.java.amateras.uml.classdiagram.model.AttributeModel>
           <backgroundColor reference="../../../backgroundColor"/>
@@ -111,7 +90,7 @@
           <visibility class="net.java.amateras.uml.classdiagram.model.Visibility$2"/>
           <name>singleton</name>
           <type>Singleton</type>
-          <isStatic>false</isStatic>
+          <isStatic>true</isStatic>
           <isFinal>false</isFinal>
           <isEnumCst>false</isEnumCst>
         </net.java.amateras.uml.classdiagram.model.AttributeModel>
@@ -156,7 +135,7 @@
           <type>Singleton</type>
           <params/>
           <isAbstract>false</isAbstract>
-          <isStatic>false</isStatic>
+          <isStatic>true</isStatic>
           <isFinal>false</isFinal>
         </net.java.amateras.uml.classdiagram.model.OperationModel>
       </children>

@@ -2,11 +2,11 @@ package singleton;
 
 
 public class Singleton {
-	private Singleton singleton = new Singleton();
+	private static Singleton singleton = new Singleton();
 	private Singleton() {
 	}
 
-	public Singleton getInstance() {
+	public static Singleton getInstance() {
 		return singleton;
 	}
 
